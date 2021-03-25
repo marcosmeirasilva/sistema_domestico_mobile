@@ -21,7 +21,7 @@ class _MyHomePageState extends State<MyHomePage> {
   _esperarDados() async {
     await Future.delayed(const Duration(seconds: 10), () {
       setState(() {
-        this._nome = "Nicolly";
+        this._nome = "Nicoly";
         _streamController.add(this._nome);
       });
     });
